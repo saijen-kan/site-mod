@@ -43,6 +43,10 @@ Function CustomFunction
 	
 	
 	
+        const currentDate = new Date();
+	    const currentYear = currentDate.getFullYear();
+	    document.getElementById('time').innerHTML = currentYear;
+    
 	
 	
 /*--------------------------------------------------
