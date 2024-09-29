@@ -434,7 +434,11 @@
     <div id="rotate-device"></div>
     
     
-		
+	<script>
+        const currentDate = new Date();
+	    const currentYear = currentDate.getFullYear();
+	    document.getElementById('time').innerHTML = currentYear;
+    </script>	
     <script src="js/jquery.min.js"></script>       
     <script src="libs/gsap/3.11.4/gsap.min.js"></script>
 	<script src="libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
