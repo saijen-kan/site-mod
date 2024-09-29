@@ -36,6 +36,7 @@ Function CustomFunction
 		
 	}// End CustomFunction
 	
+  	document.getElementById('time').innerHTML = Date();
 	
 	
 /*--------------------------------------------------
