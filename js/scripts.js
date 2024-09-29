@@ -36,8 +36,10 @@ Function CustomFunction
 		
 	}// End CustomFunction
 	
-  	document.getElementById('time').innerHTML = Date();
 	
+	const currentDate = new Date();
+	document.getElementById('time').innerHTML = currentDate;
+	currentDate.getFullYear()
 	
 /*--------------------------------------------------
 	Function Cleanup Before Ajax
