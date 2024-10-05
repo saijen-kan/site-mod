@@ -48,7 +48,7 @@ Function CustomFunction
 	currentYear.innerHTML = currentDate.getFullYear();
 	},1000) */
 	
-		currentYear() = document.getElementById("time");
+		const currentYear = document.getElementById("time");
 	
         const currentDate = new Date();
 	    const currentYear = currentDate.getFullYear();
