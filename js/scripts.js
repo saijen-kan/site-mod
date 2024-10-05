@@ -35,12 +35,12 @@ Function CustomFunction
 		//Add here your custom js code
 		
 	}// End CustomFunction
-		let currentYear = document.getElementById("time").setTimeout();
+		let currentYear = document.getElementById("time");
 
 
 		setInterval(() =>{
 			let currentDate = new Date();
-			currentYear.innerHTML = currentDate.toLocaleTimeString();
+			currentYear.innerHTML = currentDate.getFullYear();
 		},1000)
 	
 	
