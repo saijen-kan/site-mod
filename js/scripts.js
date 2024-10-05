@@ -40,15 +40,15 @@ Function CustomFunction
 	/* function showDate(){
 		document.getElementById('time').innerHTML = Date();
 	} */
-		const currentYear = document.getElementById("time");
 
 
-		/* setInterval(() =>{
-			let currentDate = new Date();
-			
-			currentYear.innerHTML = currentDate.getFullYear();
-		},1000) */
+/* setInterval(() =>{
+	let currentDate = new Date();
 	
+	currentYear.innerHTML = currentDate.getFullYear();
+	},1000) */
+	
+		currentYear() = document.getElementById("time");
 	
         const currentDate = new Date();
 	    const currentYear = currentDate.getFullYear();
