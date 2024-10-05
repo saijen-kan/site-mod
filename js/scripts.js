@@ -40,7 +40,7 @@ Function CustomFunction
 
 		setInterval(() =>{
 			let currentDate = new Date();
-			currentYear.refresh();
+			
 			currentYear.innerHTML = currentDate.toLocaleTimeString();
 		},1000)
 	
