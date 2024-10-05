@@ -36,7 +36,7 @@ Function CustomFunction
 		//Add here your custom js code
 		
 	}// End CustomFunction
-	document.getElementById('time').innerHTML = Date();
+	document.getElementById('time').innerHTML = getFullYear();
 	/* function showDate(){
 		document.getElementById('time').innerHTML = Date();
 	} */
