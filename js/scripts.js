@@ -36,14 +36,14 @@ Function CustomFunction
 		//Add here your custom js code
 		
 	}// End CustomFunction
-		let currentYear = document.getElementById("time");
+		/* let currentYear = document.getElementById("time");
 
 
 		setInterval(() =>{
 			let currentDate = new Date();
 			
 			currentYear.innerHTML = currentDate.getFullYear();
-		},1000)
+		},1000) */
 	
 	
         /* const currentDate = new Date();
