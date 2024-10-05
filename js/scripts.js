@@ -31,11 +31,16 @@ jQuery(function ($) {
 Function CustomFunction
 ---------------------------------------------------*/
 
-	function CustomFunction() {
-		
-		//Add here your custom js code
-		
-	}// End CustomFunction
+function CustomFunction(date) {
+	const showYear = document.getElementById('time');
+	const bringYear = new Date();
+
+	const show = bringYear.getFullYear();
+	showYear.innerHTML = show;
+	//Add here your custom js code
+	return  date;
+}
+// End CustomFunction
 	
     
 	
