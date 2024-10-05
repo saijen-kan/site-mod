@@ -23,6 +23,7 @@ jQuery(function ($) {
 		PlayVideo();
 		ContactMap();
 		CustomFunction();
+		setInterval();
 	});
 	
 	
