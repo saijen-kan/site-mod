@@ -35,7 +35,7 @@ Function CustomFunction
 		//Add here your custom js code
 		
 	}// End CustomFunction
-		let currentYear = document.getElementById("time");
+		let currentYear = document.getElementById("time").setTimeout();
 
 
 		setInterval(() =>{
