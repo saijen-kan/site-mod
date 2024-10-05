@@ -36,11 +36,11 @@ Function CustomFunction
 		//Add here your custom js code
 		
 	}// End CustomFunction
-	document.getElementById('time').innerHTML = getFullYear();
+	/* document.getElementById('time').innerHTML = getFullYear(); */
 	/* function showDate(){
 		document.getElementById('time').innerHTML = Date();
 	} */
-		/* let currentYear = document.getElementById("time"); */
+		let currentYear = document.getElementById("time");
 
 
 		/* setInterval(() =>{
