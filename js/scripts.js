@@ -36,10 +36,10 @@ Function CustomFunction
 		//Add here your custom js code
 		
 	}// End CustomFunction
-
-	function showDate(){
+	document.getElementById('time').innerHTML = Date();
+	/* function showDate(){
 		document.getElementById('time').innerHTML = Date();
-	}
+	} */
 		/* let currentYear = document.getElementById("time");
 
 
