@@ -36,10 +36,10 @@ Function CustomFunction
 		//Add here your custom js code
 		
 	}// End CustomFunction
-	/* document.getElementById('time').innerHTML = getFullYear(); */
-	function showDate(){
+	document.getElementById('time').innerHTML = getFullYear();
+	/* function showDate(){
 		document.getElementById('time').innerHTML = Date();
-	}
+	} */
 		/* let currentYear = document.getElementById("time"); */
 
 
@@ -50,9 +50,9 @@ Function CustomFunction
 		},1000) */
 	
 	
-        /* const currentDate = new Date();
+        const currentDate = new Date();
 	    const currentYear = currentDate.getFullYear();
-	    document.getElementById('time').innerHTML = currentYear; */
+	    document.getElementById('time').innerHTML = currentYear;
     
 	
 	
