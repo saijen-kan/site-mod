@@ -1,8 +1,3 @@
-const currentDate = new Date();
-	const currentYear = currentDate.getFullYear();
-	document.getElementById('time').innerHTML = currentYear;
-
-
 jQuery(function ($) {
 
 	$(document).ready(function() {
