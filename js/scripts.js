@@ -23,7 +23,7 @@ jQuery(function ($) {
 		PlayVideo();
 		ContactMap();
 		CustomFunction();
-		setInterval();
+		
 	});
 	
 	
@@ -36,14 +36,18 @@ Function CustomFunction
 		//Add here your custom js code
 		
 	}// End CustomFunction
-		let currentYear = document.getElementById("time");
+
+	function showDate(){
+		document.getElementById('time').innerHTML = Date();
+	}
+		/* let currentYear = document.getElementById("time");
 
 
 		setInterval(() =>{
 			let currentDate = new Date();
 			
 			currentYear.innerHTML = currentDate.getFullYear();
-		},1000)
+		},1000) */
 	
 	
         /* const currentDate = new Date();
