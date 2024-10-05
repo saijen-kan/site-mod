@@ -40,7 +40,7 @@ Function CustomFunction
 	/* function showDate(){
 		document.getElementById('time').innerHTML = Date();
 	} */
-		let currentYear = document.getElementById("time");
+		const currentYear = document.getElementById("time");
 
 
 		/* setInterval(() =>{
