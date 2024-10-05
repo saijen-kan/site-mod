@@ -36,23 +36,7 @@ Function CustomFunction
 		//Add here your custom js code
 		
 	}// End CustomFunction
-	/* document.getElementById('time').innerHTML = getFullYear(); */
-	/* function showDate(){
-		document.getElementById('time').innerHTML = Date();
-	} */
-
-
-/* setInterval(() =>{
-	let currentDate = new Date();
 	
-	currentYear.innerHTML = currentDate.getFullYear();
-	},1000) */
-	
-		const currentYear = document.getElementById("time");
-	
-        const currentDate = new Date();
-	    const currentYear = currentDate.getFullYear();
-	    document.getElementById('time').innerHTML = currentYear;
     
 	
 	
